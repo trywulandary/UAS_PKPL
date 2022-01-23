@@ -1,0 +1,32 @@
+
+.jumbotron{
+  background-image: url('pantai.jpg');
+  background-size: cover;
+   height:  630px;
+   margin-top: 50px;
+   color: white;
+}
+
+.jumbotron .display-4{
+  margin-top: 150px;
+  margin-left: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration-color: white;
+}
+
+.jumbotron .lead{
+  margin-left: 200px;
+  font-size: 30px;
+  text-decoration-color: white;
+}
+
+.jumbotron hr{
+  margin-left: 520px; 
+  width: 600px;
+}
+
+hr{
+  width: 100px;
+  border-top: 3px solid #eaeaea ;
+}

@@ -1,0 +1,128 @@
+Bootsnipp
+Bootstrap For
+Search for snippets
+Templates 
+Tools 
+Snippets 
+Register
+Login
+
+"My User Login Page"
+Bootstrap 4.0.0 Snippet by Raj78
+4.0.0 login user
+
+ 
+      
+
+Related: See More
+Template
+Material Dashboard Pro Angular
+
+ Material Dashboard Pro Angular 
+365.3K  146 
+Elegant Login Page
+
+Elegant Login Page
+196.4K  85 
+My Awesome Login Page
+
+My Awesome Login Page
+55.6K  63 
+Instagram Style User Online
+
+Instagram Style User Online
+Questions / Comments:
+Enter your message here
+
+Posting GuidelinesFormatting
+util.js:70 Uncaught TypeError: Cannot read property 'fn' of undefined
+
+at util.js:70
+
+at util.js:10
+
+at bootstrap.min.js:6
+
+at bootstrap.min.js:6
+
+=> Move jQuery <script> to the above of Bootstrap script.
+
+davidhcefx (1) - 1 month ago - Reply 0 
+
+type text for password ??
+
+jeffbzh3 () - 1 year ago - Reply 0 
+
+input password of type text ???
+
+and when alter type for password he lost the css
+
+johnnybegoods () - 1 year ago - Reply 0 
+
+It's works for me
+
+<style>
+
+input[type=password] {
+
+background-color: #f6f6f6;
+
+border: none;
+
+color: #0d0d0d;
+
+padding: 15px 32px;
+
+text-align: center;
+
+text-decoration: none;
+
+display: inline-block;
+
+font-size: 16px;
+
+margin: 5px;
+
+width: 85%;
+
+border: 2px solid #f6f6f6;
+
+-webkit-transition: all 0.5s ease-in-out;
+
+-moz-transition: all 0.5s ease-in-out;
+
+-ms-transition: all 0.5s ease-in-out;
+
+-o-transition: all 0.5s ease-in-out;
+
+transition: all 0.5s ease-in-out;
+
+-webkit-border-radius: 5px 5px 5px 5px;
+
+border-radius: 5px 5px 5px 5px;
+
+}
+
+input[type=password]:focus {
+
+background-color: #fff;
+
+border-bottom: 2px solid #5fbae9;
+
+}
+
+input[type=password]:placeholder {
+
+color: #cccccc;
+
+}
+
+</style>
+
+ashspencil (0) - 1 year ago - Reply 0 
+
+add this input[type=password] where it has this input[type=text]
+
+becoming this:
+
+input[type=text], input[type=password] {
